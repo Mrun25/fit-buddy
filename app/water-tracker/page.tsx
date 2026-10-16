@@ -108,7 +108,7 @@ export default function WaterTracker() {
           <div className="grid gap-6 md:grid-cols-2">
             <Card>
               <CardHeader>
-                <CardTitle>Today's Progress</CardTitle>
+                <CardTitle>Today&apos;s Progress</CardTitle>
                 <CardDescription>Your recommended daily water intake is {targetIntake} ml</CardDescription>
               </CardHeader>
               <CardContent>
@@ -175,7 +175,7 @@ export default function WaterTracker() {
               </CardContent>
               <CardFooter>
                 <Button variant="outline" className="w-full" onClick={resetTracker}>
-                  Reset Today's Tracker
+                  Reset Today&apos;s Tracker
                 </Button>
               </CardFooter>
             </Card>
